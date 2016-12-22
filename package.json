@@ -1,0 +1,26 @@
+{
+  "name": "cs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "wdio",
+    "start": "nodemon server.js --ignore components --ignore containers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyriluy/handlebars-cs.git"
+  },
+  "author": "cyriluy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie": "^0.3.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "jade": "^1.11.0",
+    "mysql": "^2.12.0",
+    "nodemon": "^1.11.0",
+    "reload": "^1.1.0"
+  }
+}

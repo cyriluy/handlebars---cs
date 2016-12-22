@@ -1,0 +1,22 @@
+Create new repo
+$ npm init
+Create README.md
+$ git init
+$ git add
+$ git commit -m "first commit"
+$ git config user.email ""
+$ git config user.name ""
+$ git remote add origin https://github.com/cyriluy/handlebars.git
+$ git push -u origin master
+
+//changes//
+$ git add .tasks
+$ git remote -v
+$ git fetch origin
+$ git commit -a -m '.tasks change'
+$ git push origin master
+
+//checking//
+
+$ git status
+$ git push
